@@ -1,0 +1,10 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Navbar from "./components/Navbar";
+import TodoApp from "./components/TodoApp";
+import App from "./components/App";
+import ControlledForm from "./components/ControlledForm";
+import './styles/app.css';
+const domContainer = document.getElementById("root");
+const root = ReactDOM.createRoot(domContainer);
+root.render(< TodoApp/>);
